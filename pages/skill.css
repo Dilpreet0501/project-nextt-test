@@ -1,0 +1,140 @@
+.skills .container .content{
+    width: 100%;
+  
+  }
+  .skills-description{
+    max-width: 900px;
+    margin-bottom: 50px;
+  }
+  .skills-description h3{
+    font-size: 2em;
+    margin-bottom: 5px;
+  }
+  .skills-info{
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(286px,1fr));
+    gap: 20px;
+    margin: 0 auto;
+  }
+  .skills-info h4{
+    margin-bottom: 20px;
+  }
+  .skills-info h4 label{
+    background: var(--second-colour);
+    color: #fff;
+    font-size: var(--normal-font-size);
+    font-weight: 400;
+    padding: 5px 15px;
+    border-radius: 5px;
+  }
+  .education-all{
+    margin-bottom: 80px;
+  }
+  .edu-list .item{
+    background: var(--card-bg-color);
+    box-shadow: var(--box-shadow);
+    border-bottom: 3px solid var(--second-colour);
+    padding: 20px;
+    margin-top: 15px;
+    border-radius: 6px;
+    transition: 0.3s ease;
+  }
+  .edu-list .item .year{
+    font-size: var(--small-font-size);
+    margin-bottom: 5px;
+    color: var(--first-colour);
+  
+  }
+  .edu-list .item p{
+    color: var(--third-colour);
+    font-size: var(--small-font-size);
+  
+  }
+  .edu-list .item p span{
+    color: var(--first-colour);
+    font-size: var(--normal-font-size);
+    font-weight: 500;
+  }
+  .bar{
+    color: var(--first-colour);
+    background: var(--card-bg-color);
+   box-shadow: var(--box-shadow);
+   margin-bottom: 10px;
+   padding: 20px;
+   border-radius: 6px;
+   transition: .3s ease;
+  }
+  .bar .info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+    font-size: var(--small-font-size);
+  }
+  .bar .info samp{
+    font-weight: 500;
+  }
+  .bar .line{
+    position: relative;
+    width: 100%;
+    height: 8px;
+    background: #c5cadf;
+    border-radius: 2px;
+  }
+  .bar .line:before{
+    content: '';
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: var(--second-colour);
+    border-radius: 2px;
+    width: 50%;
+  }
+  .bar .html:before{
+    width: 90%;
+  }
+  .bar .css:before{
+    width: 80%;
+  }
+  .bar .js:before{
+    width: 10%;
+  }
+  .bar .cpp:before{
+    width: 90%;
+  }
+  .bar .java:before{
+    width: 40%;
+  }
+  .experrience-card{
+    color: var(--first-colour);
+    background: var(--card-bg-color);
+    border-bottom: 3px solid var(--second-colour);
+    padding: 35px;
+    border-radius: 6px;
+    box-shadow: var(--box-shadow);
+    transition: .3s ease;
+  
+  }
+  .experrience-card .upper{
+    line-height: 30px;
+  }
+  .experrience-card h3{
+    font-size: 1.3em;
+    font-weight: 700;
+  }
+  .experrience-card h5{
+    font-size: var(--small-font-size);
+    font-weight: 500;
+    font-style: italic;
+  }
+  .experrience-card span{
+    color: var(--third-colour);
+  }
+  .experrience-card .hr{
+    width: 100%;
+    height: 2px;
+    background:var(--line-color);
+    margin: 10px 0 22px;
+  }
